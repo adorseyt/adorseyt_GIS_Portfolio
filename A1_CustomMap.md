@@ -32,13 +32,34 @@ The final palette was then converted to RGB values for easier input into Google'
 
 
 ## Map Style
+Colors in-hand, I worked with <a href="https://mapstyle.withgoogle.com/">Google's MapStyle Wizard</a> to create the custom basemap. I used the muted blue as the base; this contrasted well with the muted green to bring Chico's natural features to the forefront. Highlighted features within the parks are in the previously mentioned light blue, and road ways are in the complement colors - orange for major arteries and yellow for both local streets and hiking trails. All the text were yellow with the muted blue halo, ensuring readibility no matter the background. The full design choices are outlined here in the map's <a href="https://github.com/adorseyt/adorseyt_GIS_Portfolio/blob/main/ChicoCreek.json">JSON</a> file.
 
 ## Final Product
+Below are the final products of this map design. First is the full extent - which gives a broad picture of the numer of greenspaces in Chico, and contextualizes Bidwell Park within the town as a whole:
+
+![Bidwell Park Map Full](BidwellMapFull.PNG)
+
+While this has the advantage of breadth, it can be a bit cluttered, especially with road, feature, and key point texts being the same color as the roads. This map scale would be appropriate for a general reference, but for trip planning it may be better to zoom in:
+
+![Bidwell Park Map Zoom1](BidwellZoom1.PNG)
+
+This view is perfect for visitors looking for easy access into the park. Newcomers can take Wildwood Avenue to visit the Observatory, enjoy the Golf Course, and divert either up to climb the famous Monkey Face, or park and swim the many watering holes near Alligator Bluff.
+
+Chico Creek Nature Center may also want to highlight the family-friendly facilities near its headquarters. Lower Bidwell park is the smaller and flatter region bisected by Big Chico Creek. Zoomed in to a higher extent, visitors can see the immediate natural area surrounding the Nature Center:
+
+![Lower Bidwell](LowerBidwell-CCNC.PNG)
+
+These two extants are better catered to trip planning, allowing visitors to identify routes that will get them to their desired parts of the park. At this level, the crowding of text and sites is reduced, and the yellow/orange stand out from the park and background. However, because the park is so large, the best format would be one that allows visitors to explore. Can we create a dynamic map that begins at the full view, but can be enhanced to identify key routes and features?
 
 ### Dynamic Map 
+
+Towards this end, I sought to create an interactive version of the map using Google's API function. Below is a link to the final product, which could be embedded in Chico Creek's website:
 
 [Dynamic Google Map](/A1_ChicoCreek_Map.html)
 
 ## Future Work
+Chico Creek Nature Center is a much-needed ambassador to a beautiful but under-documented part of California. Their mission to create programming that curates safe and engaging exploration of the parks fosters both local ownership and expansion to the greater community. This map provides a clean base, but could be even more useful when paired with that programming. Chico Creek Nature Center could add points for their moonlight hikes, add safety tips along hiking trails, or promote engagament with photo contests that allow visitors to share their experience. 
+
+
 
 
