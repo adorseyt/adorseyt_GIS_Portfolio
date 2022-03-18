@@ -12,6 +12,6 @@
 
 ### Dynamic Map 
 
-A1_ChicoCreek_Map.html
+[Dynamic Google Map](/A1_ChicoCreek_Map.html)
 
 
