@@ -23,8 +23,9 @@ I then used <a href="https://color.adobe.com/create/image">Adobe Color</a> to cr
 When creating custom maps, it is important to consider visual intuition in addition to adherence to a brand. Because my project focuses so heavily on natural landscapes, green is perfect for park areas themselves, while blue can be used for the background and water features. However, there are sub-sections of the park that are highlighted, such as the golf course, that may be confused with waterways if filled with the same blue. For this reason, I added an additional lighter tone of green (#65A54A) to provide more flexibility.
 
 The final palette was then converted to RGB values for easier input into Google's Style Wizard:
+
 | **Color** | **Bright Blue** | **Muted Blue** | **Bright Green** | **Muted Green** | **Yellow** | **Orange** |
-|:---------:|:---------------:|:--------------:|:----------------:|:---------------:|:----------:|:----------:|
+|-----------|-----------------|----------------|------------------|-----------------|------------|------------|
 | Hex Code  | #2ECEF2         | #277A8C        | #65A54A          | #67A64B         | #F2DC6B    | #F28D35    |
 | Red       | 46              | 39             | 101              | 103             | 242        | 242        |
 | Green     | 206             | 122            | 165              | 166             | 220        | 141        |
