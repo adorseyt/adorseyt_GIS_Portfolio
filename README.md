@@ -10,3 +10,4 @@ With my passion for operations, I'm interested in learning how to create attract
 ## Portfolio
 Below is a copy of my work from this course:
 ### [Assignment 1: Custom Google Map - Chico Creek Nature Center](/A1_CustomMap.md)
+### [Final Project](/FinalProject.md)
