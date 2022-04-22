@@ -1,0 +1,1 @@
+<iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/hikingmirdita-alea/cl2ahekga001i14o5hhnqrp7t.html?title=false&access_token=pk.eyJ1IjoiaGlraW5nbWlyZGl0YS1hbGVhIiwiYSI6ImNsMmFoYTZnejA1Z2gzb24yajN0N2ZvbmsifQ.8F516IxhlsxQevpbCapOnQ&zoomwheel=false#9.47/41.8256/20.0226" title="Outdoors" style="border:none;"></iframe>
