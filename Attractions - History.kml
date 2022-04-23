@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Attractions - History</name>
+    <Style id="icon-1520-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1520-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1520-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1520-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1520-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Kisha e Shelbuemit</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.780785,41.764956,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piktogramet ne Katund i Vjeter</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.772364,41.7636,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kalaja e Rubikut</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.772694,41.763401,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kulla e Abat Prend Doci</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.728854,41.816441,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kepi i Qytezes</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.756279,41.802824,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bukli Ilira-Arberor</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.870186,41.844302,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Varreza Ilira-Arberor</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.912636,41.798538,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kisha e Shpaht</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.97572,41.742329,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lasha e Geciqit</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.975313,41.856783,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ish-Burgu i Spacit</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.043886,41.897724,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gurra e rrethi i Gylece Domgjon</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.048076,41.876838,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Abacia e Oroshit</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.071947,41.862503,527
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kulla e Zef Ndoc Ndreces</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.082618,41.84922,680.58
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ish-Burgu i Spacit</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.13929,41.963134,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Zoja e Veles</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.21186,41.944069,940
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kulla e Pershqefajve</name>
+      <styleUrl>#icon-1520-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.242189,41.951699,940
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

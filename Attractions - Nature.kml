@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Attractions - Nature</name>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Bjeshka e Oroshit</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.142943,41.849935,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shpellet e Oroshit</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.154587,41.810756,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kanioni i Shehut te Keq</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.141367,41.771864,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shpella e Batos</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.255342,41.94563,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Linqeni Konajve</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.985461,41.806996,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pillaja e Valmorit</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.892161,41.885459,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pillaja e Dilles</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.833523,41.72345,70
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kanioni i Kacinarit</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.930324,41.924006,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rrapi i Kacinarit</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.904506,41.896784,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Guri i Nuses</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.214254,41.915355,1781
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kulme Derven</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          20.082415,41.87037,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Liqeni i Qoftmollen</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          19.894235,41.814993,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
