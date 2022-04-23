@@ -213,6 +213,39 @@
           var testimonial = document.getElementById('capture');
           testimonial.innerHTML = content;
         });
+  var src = 'https://raw.githubusercontent.com/adorseyt/adorseyt_GIS_Portfolio/main/Attractions%20-%20Nature.kml';
+          var kmlLayer = new google.maps.KmlLayer(src, {
+          suppressInfoWindows: true,
+          preserveViewport: false,
+          map: map
+        });
+        kmlLayer.addListener('click', function(event) {
+          var content = event.featureData.infoWindowHtml;
+          var testimonial = document.getElementById('capture');
+          testimonial.innerHTML = content;
+        });
+  var src = 'https://raw.githubusercontent.com/adorseyt/adorseyt_GIS_Portfolio/main/Attractions%20-%20History.kml';
+          var kmlLayer = new google.maps.KmlLayer(src, {
+          suppressInfoWindows: true,
+          preserveViewport: false,
+          map: map
+        });
+        kmlLayer.addListener('click', function(event) {
+          var content = event.featureData.infoWindowHtml;
+          var testimonial = document.getElementById('capture');
+          testimonial.innerHTML = content;
+        });
+  var src = 'https://raw.githubusercontent.com/adorseyt/adorseyt_GIS_Portfolio/main/Attractions%20-%20Accomodation.kml';
+          var kmlLayer = new google.maps.KmlLayer(src, {
+          suppressInfoWindows: true,
+          preserveViewport: false,
+          map: map
+        });
+        kmlLayer.addListener('click', function(event) {
+          var content = event.featureData.infoWindowHtml;
+          var testimonial = document.getElementById('capture');
+          testimonial.innerHTML = content;
+        });
 // End of custom KML file...        
       }
 // Don't forget your API Key below vv
