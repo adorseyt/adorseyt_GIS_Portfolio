@@ -4,3 +4,5 @@ https://github.com/adorseyt/adorseyt_GIS_Portfolio/blob/main/FP_Mapbox.html
 
 
 [Map with layers](/HikingMirditaMapFULL.html)
+
+[Interactive Map](/index.html)
