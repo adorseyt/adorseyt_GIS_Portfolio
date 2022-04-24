@@ -2,11 +2,11 @@ function initMap() {
 	// Update MAP_ID with custom map ID
 	map = new google.maps.Map(document.getElementById('map'), {
 		center: {
-			lat: 41.80699, // lat long of default
-			lng: 19.98546,
+			lat: 41.7642647
+			lng: 19.832011
 		},
-		zoom: 18, //set zoom
-		mapId: 'f80ad993e1c20a93', // map ID
+		zoom: 8,
+		mapId: 'f80ad993e1c20a93',
 		mapTypeControl: false,
 		fullscreenControl: false,
 		streetViewControl: false,
