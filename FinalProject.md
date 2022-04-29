@@ -79,4 +79,4 @@ So 20+ hours in, I was still missing a map that had all the elements I wanted: c
 
 The greatest takeaway from this project is that a perfect map for Hiking Mirdita is possible with time. Hiking Mirdita can take this proof of concept as an inspiration, and have the technology and manpower to geocode the attractions, add descriptions, and take photos. While I was unable to complete the JavaScriptAPI version, I learned so much and the core value of the deliverable will be in the web guide; this report will outline the insights gained from this exploration and verify that Hiking Mirdita can build amazing things without spending a lot of money.
 
-#<a href="https://adorseyt.github.io/adorseyt_GIS_Portfolio/">Return to Main Page</a>
+# <a href="https://adorseyt.github.io/adorseyt_GIS_Portfolio/">Return to Main Page</a>
