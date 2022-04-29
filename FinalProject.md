@@ -63,12 +63,18 @@ I designed custom icons for the attraction points layers using a mix of <a href=
 
 Finally, I wanted visitors to be able to have sufficient information about the hikes themselves to plan effectively. I reformatted the elevation journey charts and Hiking Mirdita's existing paper maps and added descriptive statistics as attributes to the trails layer. This allowed me to create a side window popup that appeared when any trail was clicked. 
 
-The final results from this step can be found here: [Buidling the Layers and Icons in Google Maps](/GoogleMyMap.html).
+#### Building in Google
 
-While this was already coming together, I didn't like that I couldn't include a custom base map, so the next step was using the <a href="https://mapstyle.withgoogle.com/">Google Maps Style Wizard</a> to make a custom [base Map](/HikingMirditaMap.html). 
+The final results from the data prepation can be found here: [Buidling the Layers and Icons in Google Maps](/GoogleMyMap.html). While this was already coming together, I didn't like that I couldn't include a custom base map, so the next step was using the <a href="https://mapstyle.withgoogle.com/">Google Maps Style Wizard</a> to make a custom [base Map](/HikingMirditaMap.html). 
 
 I connected these two elements into a [map with layers](/HikingMirditaMapFULL.html), leveraging the MapStatic API as we had done in Assignment 1. However, because the map was static, all the popup infomation was lost. This did not feel like a finished product in this state.
 
-The next step was to experiment with JavascriptMap API to create a fully-interactive Google map. I worked off of tutorials like <a href="https://www.youtube.com/watch?v=CdDXbvBFXLY">this from Coder Coder</a> to code a map in HTML, CSS, and Javascript to combine the base map, knl layers, and pop-ups into a single product. I was also excited for this as it would allow me to also customize the fonts to use Prata and Poppins, typefaces that appear in Hiking Mirdita's website. While the results are technically [here](/HM_MapIndex.html), what will appear is a blank page. Simply put, I struggled with the implementation; I would need much more time to debug the issues than I had left for this project.
+The next step was to experiment with JavascriptMap API to create a fully-interactive Google map. I worked off of tutorials like <a href="https://www.youtube.com/watch?v=CdDXbvBFXLY">this from Coder Coder</a> to code a map in HTML, CSS, and Javascript to combine the base map, knl layers, and pop-ups into a single product. I was also excited for this as it would allow me to also customize the fonts to use Prata and Poppins, typefaces that appear in Hiking Mirdita's website. While the results are technically [here](/HM_MapIndex.html), but what will appear is a blank page. Simply put, I struggled with the implementation; I would need much more time to debug the issues than I had left for this project.
+
+#### Building outside of Google
 
 So 20+ hours in, I was still missing a map that had all the elements I wanted: custom base map, image markers, and interactive features that allowed visitors to see trail information as a pop-out. I decided to [recreate the map in Esri](/EsriMap.html). While it has all the features I wanted, this isn't a very viable option for Hiking Mirdita. The reason I had restricted the scope of the project to Google at the offset was to avoid cost-prohibitive barriers to them taking final ownership over the map. Putting it simply, Esri is famously not cheap.
+
+### Discussion
+
+The greatest takeaway from this project is that a perfect map for Hiking Mirdita is possible with time. Hiking Mirdita can take this proof of concept as an inspiration, and have the technology and manpower to geocode the attractions, add descriptions, and take photos. While I was unable to complete the JavaScriptAPI version, I learned so much and the core value of the deliverable will be in the web guide; this report will outline the insights gained from this exploration and verify that Hiking Mirdita can build amazing things without spending a lot of money.
